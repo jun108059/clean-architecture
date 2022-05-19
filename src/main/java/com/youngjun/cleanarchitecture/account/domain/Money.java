@@ -13,6 +13,7 @@ public class Money {
     @NonNull
     private final BigInteger amount;
 
+    // 잔고 0원 이상인지 검사(비즈니스 규칙)
     public boolean isPositiveOrZero(){
         return this.amount.compareTo(BigInteger.ZERO) >= 0;
     }

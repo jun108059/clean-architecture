@@ -9,6 +9,9 @@ import java.time.LocalDateTime;
 
 import static com.youngjun.cleanarchitecture.account.domain.Account.*;
 
+/**
+ * QueryService(단순 데이터 쿼리 인커밍 포트 구현)
+ */
 @RequiredArgsConstructor
 public class GetAccountBalanceService implements GetAccountBalanceQuery {
 
