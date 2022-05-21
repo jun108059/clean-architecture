@@ -2,6 +2,9 @@ package com.youngjun.cleanarchitecture.account.application.service;
 
 import com.youngjun.cleanarchitecture.account.application.port.in.SendMoneyCommand;
 import com.youngjun.cleanarchitecture.account.application.port.in.SendMoneyUseCase;
+import com.youngjun.cleanarchitecture.account.application.port.out.AccountLock;
+import com.youngjun.cleanarchitecture.account.application.port.out.LoadAccountPort;
+import com.youngjun.cleanarchitecture.account.application.port.out.UpdateAccountStatePort;
 import lombok.RequiredArgsConstructor;
 import javax.transaction.Transactional;
 
@@ -12,6 +15,7 @@ public class SendMoneyService implements SendMoneyUseCase {
     private final LoadAccountPort loadAccountPort;
     private final AccountLock accountLock;
     private final UpdateAccountStatePort updateAccountStatePort;
+    private final MoneyTransferProperties moneyTransferProperties;
 
     @Override
     public boolean sendMoney(SendMoneyCommand command) {
