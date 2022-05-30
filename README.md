@@ -7,8 +7,8 @@
 |    1    | [계층형 아키텍처의 문제는 무엇일까?](https://github.com/jun108059/clean-architecture/wiki/1%EC%9E%A5.-%EA%B3%84%EC%B8%B5%ED%98%95-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%98-%EB%AC%B8%EC%A0%9C) |
 |    2    | [의존성 역전하기](https://github.com/jun108059/clean-architecture/wiki/2%EC%9E%A5.-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%97%AD%EC%A0%84%ED%95%98%EA%B8%B0)                                                |
 |    3    | [코드 구성하기](https://github.com/jun108059/clean-architecture/wiki/3%EC%9E%A5.-%EC%BD%94%EB%93%9C-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0)                                                           |
-|    4    | 유스케이스 구현하기           |
-|    5    | 웹 어댑터 구현하기            |
+|    4    | [유스케이스 구현하기](https://github.com/jun108059/clean-architecture/wiki/4%EC%9E%A5.-%EC%9C%A0%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%8A%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)                          |
+|    5    | [웹 어댑터 구현하기](https://github.com/jun108059/clean-architecture/wiki/5%EC%9E%A5.-%EC%9B%B9-%EC%96%B4%EB%8C%91%ED%84%B0-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)                                   |
 |    6    | 영속성 어댑터 구현하기        |
 |    7    | 아키텍처 요소 테스트하기      |
 |    8    | 경계 간 매핑하기              |
